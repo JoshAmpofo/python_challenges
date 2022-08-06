@@ -1,0 +1,13 @@
+Pseudocode
+function name: divide_or_square
+function: take a number input from user and if divisible by 5 return the root of number. Else return the remainder of the division if not divisible
+structure:
+1. would involve a 'input' fxn
+2. main fxn body will be an ifelse clause
+3. if else clause:
+if user_input divide by five = 0
+return square_root(user_input)
+elif user_input divide by != 0
+return user_input%%5
+
+4. Add an exit statement as appropriate
