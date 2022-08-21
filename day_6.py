@@ -1,3 +1,4 @@
+
 """This challenge requires creating a function that takes a user email and returns their username"""
 
 
@@ -11,3 +12,4 @@ print(user_name())
 
 """I had wanted to use regular expressions but it wasn't working because I couldn't figure out my regex syntax 
 so had to resort to the slicing method"""
+
