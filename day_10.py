@@ -10,6 +10,8 @@ def hide_password():
 print(hide_password())
 
 #####################################################################
+# Advanced task: take an input of numbers and return them separated by the commas
+
 def convert_numbers(num):
     new_list = []
     for num in num:
@@ -18,4 +20,3 @@ def convert_numbers(num):
 
 
 print(convert_numbers([1000000, 2356989, 2354672, 9878098]))
-
