@@ -14,13 +14,13 @@ def age_in_minutes():
         if (len(user_input) < 4) or (len(user_input)) > 4:  # check if year or not 4 digits
             print("Invalid date length! Please enter a 4 digit YOB")
             continue
-        if (int(user_input) < 1900) or (int(user_input) > today_year):  # check if year is incorrect
-            print("Invalid year! Please enter a date between 1900 and current year")
+        elif (int(user_input) < 1900) or (int(user_input) > today_year):  # check if year is incorrect
+            print("Invalid year! Please enter a date between 1900 and {}".format(today_year))
             continue
         elif len(str(user_input)) == 4:
             age_min = (today_year - int(user_input)) * year_min  # calculate age in minutes
-            print("You are {:,} minutes old".format(age_min))
+            return f"You are {age_min:,} minutes old"
         break  # get out of loop if correct input made
 
 
-age_in_minutes()
+print(age_in_minutes())
